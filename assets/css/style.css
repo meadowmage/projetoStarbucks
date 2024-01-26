@@ -24,6 +24,21 @@ header .line{
     height: 22px;
 }
 
+.button{
+    display: inline-block;
+    border: 2px solid #454545;
+    padding: 10px 30px;
+    border-radius: 3px;
+    color: #454545;
+    text-decoration: none;
+
+}
+
+.button:hover{
+    background-color: #454545;
+    color: #fff;
+}
+
 h2{
     font-family: 'Oswald', sans-serif;
     font-size: 35px;
@@ -140,4 +155,9 @@ h2{
 
 .area1--quote{
     margin-bottom: 30px;
+}
+
+.area1--text{
+    margin-bottom: 50px;
+    line-height: 25px;
 }
